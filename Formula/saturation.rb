@@ -1,25 +1,25 @@
 class Saturation < Formula
   desc "CLI for the Saturation public API and production finance resources"
   homepage "https://docs.saturation.io"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.0/saturation-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "fe5ee55365397d4631734de1dbd536952dd5a3870d34966a3d364c7960bf4590"
+      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.1/saturation-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "2c79a7b5fff713da46a87243d5380d0b2a56ad1032144b98b5fe8d29106a8fd8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.0/saturation-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "fdd23045ef1ec2be22ecfceb0d1a3094f8ab734852f880ba2efc9b9279651323"
+      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.1/saturation-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "efb330111dfccad980365137e04daa2c02c619d925c6a4a8663e46d3765bf398"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.0/saturation-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ae2da7e78140d4e04ad9f8f718340d6b1f44a42bed42af9453445ce0df9172d1"
+      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.1/saturation-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8ec0760ff5a4821cf6c477b20e33a122fae65f496e76aef506234850946283d1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.0/saturation-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "77368ce66702d63dc1f8d6f356d98579bbea1e407d7f665bd7ff8f7544a13cef"
+      url "https://github.com/Saturation-IO/saturation-cli/releases/download/v0.2.1/saturation-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "20205a1931f3a936a2cc665502321bfed9a16adba723d9bdff04b0974f1bd616"
     end
   end
   license "MIT"
